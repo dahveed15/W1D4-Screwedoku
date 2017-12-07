@@ -49,8 +49,8 @@ class SudokuGame
   def play_turn
     board.render
 
-    val = get_val
-    pos = get_pos
+    pos = get_val
+    val = get_pos
 
     board[pos] = val
   end
